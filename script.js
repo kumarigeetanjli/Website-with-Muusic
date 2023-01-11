@@ -4,11 +4,11 @@ icon.onclick =function(){
     // song.play();
     if(song.paused){
         song.play();
-        icon.src = "image&video/pause.webp"
+        icon.src = "./pause.webp"
     }
     else{
         song.pause();
-        icon.src = "image&video/play.webp"
+        icon.src = "./play.webp"
 
     }
 }
